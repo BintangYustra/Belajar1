@@ -1,0 +1,71 @@
+body{
+    background-color: azure;
+}
+
+header{
+    text-align: left;
+    padding: 20px;
+    margin: 20px;
+}
+
+.navbar h1{
+    text-align: center;
+}
+
+.navbar ul{
+    list-style: none;
+    background-color: black;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar a{
+    color: aquamarine;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar li{
+    float: left;
+}
+
+/*LAGU PAGE*/
+.DesLagu{
+    background-color: aquamarine;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.NamaLagu{
+    margin: 20px;
+}
+
+.AlbumFoto img{
+    max-height: 300px;
+    margin: 20px;
+}
+
+.PemutarMusik{
+    margin: 20px;
+}
+/*LAGU PAGE*/
+
+/*BUNGA PAGE*/
+.DesBunga{
+    display: flex;
+    background-color: antiquewhite;
+}
+
+.DesBunga div{
+    margin-left: 25px;
+    margin-top: 5px;
+}
+
+.DesBunga img{
+    max-height: 300px;
+    max-width: 300px;
+}
+/*BUNGA PAGE*/
